@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>togglereplied@eyrich-net.org</em:id>
+		<em:type>2</em:type>
+    <em:version>0.4</em:version>
+
+    <!-- Front End MetaData -->
+    <em:name>ToggleReplied</em:name>
+    <em:description>Enables toggling of Replied/Forwarded states of messages.</em:description>
+    <em:creator>Christian Eyrich</em:creator>
+    <em:contributor>Bob Triffles</em:contributor>
+	<em:localized>
+		<Description>
+			<em:locale>de-DE</em:locale>
+			<em:name>ToggleReplied</em:name>
+			<em:description>Ermöglicht das Umschalten der Beantwortet- und Weitergeleitet-Markierung von Nachrichten.</em:description>
+			<em:creator>Christian Eyrich</em:creator>
+			<em:contributor>Bob Triffles</em:contributor>
+		</Description>
+	</em:localized>
+	<em:localized>
+		<Description>
+			<em:locale>it-IT</em:locale>
+			<em:name>ToggleReplied</em:name>
+			<em:description>Permette di marcare i messaggi a cui si è risposto e inoltrati.</em:description>
+			<em:creator>Christian Eyrich</em:creator>
+			<em:contributor>Bob Triffles</em:contributor>
+			<em:translator>Godai71</em:translator>
+		</Description>
+	</em:localized>
+
+    <!-- Thunderbird -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+        <em:minVersion>3.0b2pre</em:minVersion>
+        <em:maxVersion>20.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <!-- Seamonkey -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+        <em:minVersion>2.0a3pre</em:minVersion>
+        <em:maxVersion>2.17.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+
+    <!-- Postbox -->
+    <em:targetApplication>
+      <Description>
+        <em:id>postbox@postbox-inc.com</em:id>
+        <em:minVersion>2.0</em:minVersion>
+        <em:maxVersion>3.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <em:homepageURL>http://www.eyrich-net.org/mozilla/mozapps.html</em:homepageURL>
+	</Description>
+</RDF>
