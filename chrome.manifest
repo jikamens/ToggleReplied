@@ -1,8 +1,8 @@
-content	togglereplied	jar:chrome/ToggleReplied.jar!/content/
+content	togglereplied	chrome/content/
 
-locale togglereplied en jar:chrome/ToggleReplied.jar!/locale/en/
-locale togglereplied de jar:chrome/ToggleReplied.jar!/locale/de/
-locale togglereplied it jar:chrome/ToggleReplied.jar!/locale/it/
+locale togglereplied en chrome/locale/en/
+locale togglereplied de chrome/locale/de/
+locale togglereplied it chrome/locale/it/
 
 overlay chrome://messenger/content/messenger.xul chrome://togglereplied/content/togglerepliedOverlay.xul
 
