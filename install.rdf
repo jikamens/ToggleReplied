@@ -19,7 +19,7 @@
 
     <!-- Front End MetaData -->
     <em:name>ToggleReplied</em:name>
-    <em:description>Enables toggling of Replied/Forwarded states of messages.</em:description>
+    <em:description>Enables toggling of replied, forwarded, and redirected states of messages.</em:description>
     <em:creator>Christian Eyrich</em:creator>
     <em:contributor>Bob Triffles</em:contributor>
     <em:developer>Jonathan Kamens</em:developer>
