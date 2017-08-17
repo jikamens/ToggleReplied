@@ -5,7 +5,7 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>togglereplied@eyrich-net.org</em:id>
-		<em:type>2</em:type>
+    <em:type>2</em:type>
     <em:version>0.4</em:version>
 
     <!-- Front End MetaData -->
@@ -13,25 +13,25 @@
     <em:description>Enables toggling of Replied/Forwarded states of messages.</em:description>
     <em:creator>Christian Eyrich</em:creator>
     <em:contributor>Bob Triffles</em:contributor>
-	<em:localized>
-		<Description>
-			<em:locale>de-DE</em:locale>
-			<em:name>ToggleReplied</em:name>
-			<em:description>Ermöglicht das Umschalten der Beantwortet- und Weitergeleitet-Markierung von Nachrichten.</em:description>
-			<em:creator>Christian Eyrich</em:creator>
-			<em:contributor>Bob Triffles</em:contributor>
-		</Description>
-	</em:localized>
-	<em:localized>
-		<Description>
-			<em:locale>it-IT</em:locale>
-			<em:name>ToggleReplied</em:name>
-			<em:description>Permette di marcare i messaggi a cui si è risposto e inoltrati.</em:description>
-			<em:creator>Christian Eyrich</em:creator>
-			<em:contributor>Bob Triffles</em:contributor>
-			<em:translator>Godai71</em:translator>
-		</Description>
-	</em:localized>
+    <em:localized>
+      <Description>
+	<em:locale>de-DE</em:locale>
+	<em:name>ToggleReplied</em:name>
+	<em:description>Ermöglicht das Umschalten der Beantwortet- und Weitergeleitet-Markierung von Nachrichten.</em:description>
+	<em:creator>Christian Eyrich</em:creator>
+	<em:contributor>Bob Triffles</em:contributor>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+	<em:locale>it-IT</em:locale>
+	<em:name>ToggleReplied</em:name>
+	<em:description>Permette di marcare i messaggi a cui si è risposto e inoltrati.</em:description>
+	<em:creator>Christian Eyrich</em:creator>
+	<em:contributor>Bob Triffles</em:contributor>
+	<em:translator>Godai71</em:translator>
+      </Description>
+    </em:localized>
 
     <!-- Thunderbird -->
     <em:targetApplication>
@@ -54,13 +54,13 @@
 
     <!-- Postbox -->
     <!--<em:targetApplication>
-      <Description>
-        <em:id>postbox@postbox-inc.com</em:id>
-        <em:minVersion>2.0</em:minVersion>
-        <em:maxVersion>3.*</em:maxVersion>
-      </Description>
-    </em:targetApplication>-->
+        <Description>
+          <em:id>postbox@postbox-inc.com</em:id>
+          <em:minVersion>2.0</em:minVersion>
+          <em:maxVersion>3.*</em:maxVersion>
+        </Description>
+        </em:targetApplication>-->
 
     <em:homepageURL>http://www.eyrich-net.org/mozilla/mozapps.html</em:homepageURL>
-	</Description>
+  </Description>
 </RDF>
