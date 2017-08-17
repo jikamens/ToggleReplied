@@ -15,7 +15,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>togglereplied@kamens.us</em:id>
     <em:type>2</em:type>
-    <em:version>0.5</em:version>
+    <em:version>0.5.1</em:version>
 
     <!-- Front End MetaData -->
     <em:name>ToggleReplied</em:name>
@@ -67,6 +67,6 @@
         </Description>
         </em:targetApplication>-->
 
-    <em:homepageURL>http://www.eyrich-net.org/mozilla/mozapps.html</em:homepageURL>
+    <em:homepageURL>https://addons.mozilla.org/thunderbird/addon/togglereplied-2/</em:homepageURL>
   </Description>
 </RDF>

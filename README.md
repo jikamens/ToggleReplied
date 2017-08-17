@@ -16,3 +16,5 @@ are to ensure compatibility with newer Thunderbird and SeaMonkey
 versions.
 
 Source code: [https://github.com/jikamens/ToggleReplied](https://github.com/jikamens/ToggleReplied)
+
+Home page: [https://addons.mozilla.org/thunderbird/addon/togglereplied-2/](https://addons.mozilla.org/thunderbird/addon/togglereplied-2/)
