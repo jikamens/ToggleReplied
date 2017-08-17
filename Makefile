@@ -8,7 +8,7 @@ all: ToggleReplied.xpi
 
 CMD=find . \( -name .git -prune \) -o \
     \! -name '*~' \! -name '.\#*' \! -name Makefile \! -name '*.xpi' \
-    \! -name '\#*' \! -name .gitignore -type f -print
+    \! -name '\#*' \! -name .gitignore \! -name README.md -type f -print
 FILES=$(shell $(CMD))
 
 ToggleReplied.xpi: $(FILES)
