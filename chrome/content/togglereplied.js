@@ -1,10 +1,15 @@
-/*
- *  Toggle Replied and Forwarded states for Seamonkey and Thunderbird
+/* Copyright (c) 2017 Jonathan Kamens.
  *
- *  Copyright 2007-2012 Christian Eyrich (ch.ey@gmx.net)
- *  This code is triple licensed under MPL/GPL/LGPL. See license.txt for details.
- *
- */
+ * This Source Code Form is subject to the terms of the Mozilla Public License,
+ * v. 2.0. If a copy of the MPL was not distributed with this file, You can
+ * obtain one at http://mozilla.org/MPL/2.0/.
+
+ * Earlier versions of this file were "triple-licensed" under MPL 1.1 / for
+ * details.GPL 2.0 / LGPL 2.1. Please see the file "license.txt" or
+ * https://github.com/jikamens/ToggleReplied/blob/master/license.txt for
+ * details. */
+
+/* Toggle Replied and Forwarded states for Seamonkey and Thunderbird */
 
 function toggleRepliedClass()
 {
