@@ -13,22 +13,21 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
   <Description about="urn:mozilla:install-manifest">
-    <em:id>togglereplied@eyrich-net.org</em:id>
+    <em:id>togglereplied@kamens.us</em:id>
     <em:type>2</em:type>
-    <em:version>0.4</em:version>
+    <em:version>0.5</em:version>
 
     <!-- Front End MetaData -->
     <em:name>ToggleReplied</em:name>
     <em:description>Enables toggling of Replied/Forwarded states of messages.</em:description>
     <em:creator>Christian Eyrich</em:creator>
     <em:contributor>Bob Triffles</em:contributor>
+    <em:developer>Jonathan Kamens</em:developer>
     <em:localized>
       <Description>
 	<em:locale>de-DE</em:locale>
 	<em:name>ToggleReplied</em:name>
 	<em:description>Ermöglicht das Umschalten der Beantwortet- und Weitergeleitet-Markierung von Nachrichten.</em:description>
-	<em:creator>Christian Eyrich</em:creator>
-	<em:contributor>Bob Triffles</em:contributor>
       </Description>
     </em:localized>
     <em:localized>
@@ -36,8 +35,6 @@
 	<em:locale>it-IT</em:locale>
 	<em:name>ToggleReplied</em:name>
 	<em:description>Permette di marcare i messaggi a cui si è risposto e inoltrati.</em:description>
-	<em:creator>Christian Eyrich</em:creator>
-	<em:contributor>Bob Triffles</em:contributor>
 	<em:translator>Godai71</em:translator>
       </Description>
     </em:localized>
