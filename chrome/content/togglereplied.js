@@ -162,7 +162,7 @@ function toggleRepliedClass()
 		} catch(e) {
 			uris = gFolderDisplay.selectedMessageUris;
 		}
-		for each (var uri in uris)
+		for (var uri of uris)
 		{
 			var hdr = messenger.msgHdrFromURI(uri);
 			dBView.db.MarkReplied(hdr.messageKey, markReplied, null);
@@ -191,7 +191,7 @@ function toggleRepliedClass()
 		} catch(e) {
 			uris = gFolderDisplay.selectedMessageUris;
 		}
-		for each (var uri in uris)
+		for (var uri of uris)
 		{
 			var hdr = messenger.msgHdrFromURI(uri);
 			dBView.db.MarkForwarded(hdr.messageKey, markForwarded, null);
@@ -220,7 +220,7 @@ function toggleRepliedClass()
 			uris = gFolderDisplay.selectedMessageUris;
 		}
 		var toggler = !markRedirected ? "addKeywordsToMessages" : "removeKeywordsFromMessages";
-		for each (var uri in uris)
+		for (var uri of uris)
 		{
 			var hdr = messenger.msgHdrFromURI(uri);
 			var msg = Components.classes["@mozilla.org/array;1"]

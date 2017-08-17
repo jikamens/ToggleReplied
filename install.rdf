@@ -37,8 +37,8 @@
     <em:targetApplication>
       <Description>
         <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
-        <em:minVersion>3.0b2pre</em:minVersion>
-        <em:maxVersion>20.*</em:maxVersion>
+        <em:minVersion>20</em:minVersion>
+        <em:maxVersion>57.0</em:maxVersion>
       </Description>
     </em:targetApplication>
 
@@ -46,20 +46,20 @@
     <em:targetApplication>
       <Description>
         <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
-        <em:minVersion>2.0a3pre</em:minVersion>
-        <em:maxVersion>2.17.*</em:maxVersion>
+        <em:minVersion>2.17</em:minVersion>
+        <em:maxVersion>2.54</em:maxVersion>
       </Description>
     </em:targetApplication>
 
 
     <!-- Postbox -->
-    <em:targetApplication>
+    <!--<em:targetApplication>
       <Description>
         <em:id>postbox@postbox-inc.com</em:id>
         <em:minVersion>2.0</em:minVersion>
         <em:maxVersion>3.*</em:maxVersion>
       </Description>
-    </em:targetApplication>
+    </em:targetApplication>-->
 
     <em:homepageURL>http://www.eyrich-net.org/mozilla/mozapps.html</em:homepageURL>
 	</Description>
