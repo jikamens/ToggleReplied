@@ -38,6 +38,14 @@
 	<em:translator>Godai71</em:translator>
       </Description>
     </em:localized>
+    <em:localized>
+      <Description>
+	<em:locale>nl</em:locale>
+	<em:name>ToggleReplied</em:name>
+	<em:description>Voegt de mogelijkheid toe om berichtmarkeringen “Beantwoord”, “Doorgestuurd” en “Geheradresseerd” te wijzigen.</em:description>
+	<em:translator>CookieRevised</em:translator>
+      </Description>
+    </em:localized>
 
     <!-- Thunderbird -->
     <em:targetApplication>
