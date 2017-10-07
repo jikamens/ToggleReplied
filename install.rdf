@@ -15,7 +15,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>togglereplied@kamens.us</em:id>
     <em:type>2</em:type>
-    <em:version>0.5.1</em:version>
+    <em:version>0.5.2</em:version>
 
     <!-- Front End MetaData -->
     <em:name>ToggleReplied</em:name>
