@@ -83,7 +83,7 @@ function toggleRepliedClass()
 
 	function createRepliedMenuitem(id, label)
 	{
-		menuitem = document.createElement("menuitem");
+		menuitem = document.createXULElement("menuitem");
 		menuitem.setAttribute("label", label);
 		menuitem.setAttribute("id", id);
 		menuitem.setAttribute("type", "checkbox");
@@ -94,7 +94,7 @@ function toggleRepliedClass()
 
 	function createForwardedMenuitem(id, label)
 	{
-		menuitem = document.createElement("menuitem");
+		menuitem = document.createXULElement("menuitem");
 		menuitem.setAttribute("label", label);
 		menuitem.setAttribute("id", id);
 		menuitem.setAttribute("type", "checkbox");
@@ -105,7 +105,7 @@ function toggleRepliedClass()
 
 	function createRedirectedMenuitem(id, label)
 	{
-		menuitem = document.createElement("menuitem");
+		menuitem = document.createXULElement("menuitem");
 		menuitem.setAttribute("label", label);
 		menuitem.setAttribute("id", id);
 		menuitem.setAttribute("type", "checkbox");
