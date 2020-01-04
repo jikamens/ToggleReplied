@@ -6,12 +6,14 @@
 
 all: ToggleReplied.xpi
 
-CMD=find . \( -name .git -prune \) -o \
+CMD=find . \( \( -name .git -o -name send-later \) -prune \) -o \
     \! -name '*~' \! -name '.\#*' \! -name Makefile \! -name '*.xpi' \
-    \! -name '\#*' \! -name .gitignore \! -name README.md -type f -print
+    \! -name '\#*' \! -name .gitignore \! -name README.md \
+    \! -name .gitmodules -type f -print
 FILES=$(shell $(CMD))
 
 ToggleReplied.xpi: $(FILES)
+	./send-later/utils/make-kickstarter.sh
 	rm -f $@.tmp
 	zip -r $@.tmp $(FILES)
 	mv $@.tmp $@
