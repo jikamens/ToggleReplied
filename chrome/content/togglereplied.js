@@ -79,11 +79,6 @@ function toggleRepliedClass()
 
 			markMenu.addEventListener("popupshowing", toggleRepliedObj.toggleRepliedPopup, false);
 		}
-
-            var {KickstarterPopup} = ChromeUtils.import(
-                "chrome://togglereplied/content/kickstarter.jsm");
-            KickstarterPopup(window,
-                             "chrome://togglereplied/content/kickstarter.xul");
 	}
 
 	function createRepliedMenuitem(id, label)

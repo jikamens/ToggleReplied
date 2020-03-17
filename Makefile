@@ -13,7 +13,6 @@ CMD=find . \( \( -name .git -o -name send-later \) -prune \) -o \
 FILES=$(shell $(CMD))
 
 ToggleReplied.xpi: $(FILES)
-	./send-later/utils/make-kickstarter.sh
 	rm -f $@.tmp
 	zip -r $@.tmp $(FILES)
 	mv $@.tmp $@
