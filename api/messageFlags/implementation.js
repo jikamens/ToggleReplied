@@ -2,10 +2,23 @@ var { ExtensionCommon } = ChromeUtils.import(
   "resource://gre/modules/ExtensionCommon.jsm",
 );
 
+thunderbirdVersion = parseInt(Services.appinfo.version.split(".")[0]);
+function tb115(yes, no) {
+  if (thunderbirdVersion >= 115) {
+    if (yes) {
+      return typeof yes == "function" ? yes() : yes;
+    }
+  } else {
+    if (no) {
+      return typeof no == "function" ? no() : no;
+    }
+  }
+}
+
 const FLAGS = {
   // "name": [DBvalue, DBfunction, IMAPvalue]
-  replied: [0x02, "markReplied", 0x02],
-  forwarded: [0x1000, "markForwarded", 0x40],
+  replied: [0x02, tb115("markReplied", "MarkReplied"), 0x02],
+  forwarded: [0x1000, tb115("markForwarded", "MarkForwarded"), 0x40],
 };
 
 var messageFlags = class extends ExtensionCommon.ExtensionAPI {
