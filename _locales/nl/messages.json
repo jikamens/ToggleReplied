@@ -1,10 +1,14 @@
 {
-    "appName": {
-        "message": "ToggleReplied",
-        "description": "The name of the add-on, displayed in various places."
-    },
     "appDesc": {
-        "message": "Voegt de mogelijkheid toe om berichtmarkeringen “Beantwoord”, “Doorgestuurd” en “Geheradresseerd” te wijzigen.",
-        "description": "A short description of the add-on."
+        "message": "Voegt de mogelijkheid toe om berichtmarkeringen “Beantwoord” en “Doorgestuurd” te wijzigen."
+    },
+    "toggleForwarded": {
+        "message": "Als doorgestuurd"
+    },
+    "toggleRedirected": {
+        "message": "Als geheradresseerd"
+    },
+    "toggleReplied": {
+        "message": "Als beantwoord"
     }
 }

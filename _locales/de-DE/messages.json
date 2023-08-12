@@ -1,10 +1,14 @@
 {
-    "appName": {
-        "message": "ToggleReplied",
-        "description": "The name of the add-on, displayed in various places."
-    },
     "appDesc": {
-        "message": "Ermöglicht das Umschalten der Beantwortet- und Weitergeleitet-Markierung von Nachrichten.",
-        "description": "A short description of the add-on."
+        "message": "Ermöglicht das Umschalten der Beantwortet- und Weitergeleitet-Markierung von Nachrichten."
+    },
+    "toggleForwarded": {
+        "message": "Als weitergeleitet"
+    },
+    "toggleReplied": {
+        "message": "Als beantwortet"
+    },
+    "toggleRedirected": {
+        "message": "Als umgeleitet"
     }
 }

@@ -6,11 +6,8 @@
 
 all: ToggleReplied.xpi
 
-CMD=find . \( \( -name .git -o -name send-later \) -prune \) -o \
-    \! -name '*~' \! -name '.\#*' \! -name Makefile \! -name '*.xpi' \
-    \! -name '\#*' \! -name .gitignore \! -name README.md \
-    \! -name .gitmodules -type f -print
-FILES=$(shell $(CMD))
+FILES=LICENSE $(wildcard _locales/*/*.json) $(wildcard api/*/*.js) \
+	$(wildcard api/*/*.json) background.html background.js manifest.json
 
 ToggleReplied.xpi: $(FILES)
 	rm -f $@.tmp

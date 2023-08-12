@@ -1,0 +1,54 @@
+[
+  {
+    "namespace": "messageFlags",
+    "functions": [
+      {
+        "name": "getFlagValues",
+        "description": "Get the values of a flag for one or more message IDs",
+        "type": "function",
+        "async": true,
+        "parameters": [
+          {
+            "name": "flagKey",
+            "description": "Flag whose value(s) you want to get (replied, forwarded)",
+            "type": "string"
+          },
+          {
+            "name": "messageIds",
+            "description": "message ID(s) you want the flag value(s) for",
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          }
+        ]
+      },
+      {
+        "name": "setFlagValues",
+        "description": "Set the value of a flag for one or more messages",
+        "type": "function",
+        "async": true,
+        "parameters": [
+          {
+            "name": "flagKey",
+            "description": "Flag whose value(s) you want to set (replied, forwarded)",
+            "type": "string"
+          },
+          {
+            "name": "flagValue",
+            "description": "Value of the flag you want to set",
+            "type": "boolean"
+          },
+          {
+            "name": "messageIds",
+            "description": "message ID(s) you want to set the flag value(s) for",
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

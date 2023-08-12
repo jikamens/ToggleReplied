@@ -1,10 +1,14 @@
 {
-    "appName": {
-        "message": "ToggleReplied",
-        "description": "The name of the add-on, displayed in various places."
-    },
     "appDesc": {
-        "message": "Permette di marcare i messaggi a cui si è risposto e inoltrati.",
-        "description": "A short description of the add-on."
+        "message": "Permette di marcare i messaggi a cui si è risposto e inoltrati."
+    },
+    "toggleForwarded": {
+        "message": "Inoltrato"
+    },
+    "toggleRedirected": {
+        "message": "Reindirizzato"
+    },
+    "toggleReplied": {
+        "message": "Risposto"
     }
 }

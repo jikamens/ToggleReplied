@@ -1,10 +1,17 @@
 {
     "appName": {
-        "message": "ToggleReplied",
-        "description": "The name of the add-on, displayed in various places."
+        "message": "ToggleReplied"
     },
     "appDesc": {
-        "message": "Enables toggling of replied, forwarded, and redirected states of messages.",
-        "description": "A short description of the add-on."
+        "message": "Enables toggling of Replied/Forwarded states of messages."
+    },
+    "toggleForwarded": {
+        "message": "As Forwarded"
+    },
+    "toggleRedirected": {
+        "message": "As Redirected"
+    },
+    "toggleReplied": {
+        "message": "As Replied"
     }
 }

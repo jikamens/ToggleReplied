@@ -1,17 +1,30 @@
 {
-    "name": "__MSG_appName__",
-    "version": "1.0.5",
-    "description": "__MSG_appDesc__",
-    "author": "Jonathan Kamens",
-    "default_locale": "en-US",
-    "homepage_url": "https://addons.thunderbird.net/thunderbird/addon/togglereplied-2/",
-    "legacy": true,
-    "applications": {
-        "gecko": {
-            "id": "togglereplied@kamens.us",
-            "strict_min_version": "68.0a1",
-            "strict_max_version": "71.*"
-        }
-    },
-    "manifest_version": 2
+  "manifest_version": 2,
+  "name": "__MSG_appName__",
+  "version": "2.0",
+  "description": "__MSG_appDesc__",
+  "author": "Jonathan Kamens",
+  "default_locale": "en-US",
+  "homepage_url": "https://addons.thunderbird.net/thunderbird/addon/togglereplied-2/",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "togglereplied@kamens.us",
+      "strict_min_version": "115.0",
+      "strict_max_version": "115.*"
+    }
+  },
+  "permissions": ["menus", "messagesRead"],
+  "background": {
+    "page": "background.html"
+  },
+  "experiment_apis": {
+    "messageFlags": {
+      "schema": "api/messageFlags/schema.json",
+      "parent": {
+        "scopes": ["addon_parent"],
+        "paths": [["messageFlags"]],
+        "script": "api/messageFlags/implementation.js"
+      }
+    }
+  }
 }
