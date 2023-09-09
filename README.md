@@ -1,3 +1,5 @@
+(This repository is obsolete. See [https://github.com/Extended-Thunder/ToggleReplied/](https://github.com/Extended-Thunder/ToggleReplied/).
+
 ToggleReplied Thunderbird / SeaMonkey add-on
 ============================================
 
